@@ -3,6 +3,8 @@
 require "../classes/database.php";
 require "../classes/stringHelper.php";
 
+// I denne card generator, kan man se hvordan ingenting er sat, alt får den fra databasen, og på siden vil man bruge "$limit" for at sige hvormange der skal være
+
 class CardGenerator {
 
     public static function generateCards($limit = false) {
